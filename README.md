@@ -37,3 +37,13 @@ CIビルドの修正| 💚 `:green_heart:`
 基本的に絵文字を手打ちするのは面倒だが、Atomを使用している場合は、[git-plus](https://atom.io/packages/git-plus)と[autocomplete-emojis](https://atom.io/packages/autocomplete-emojis)を併用すると楽。
 
 ![](https://zippy.gfycat.com/VigilantHarmfulKestrel.gif)
+
+## ターミナル上でgit commit
+ターミナル上で絵文字を手打ちする場合にはテンプレートとして絵文字リストを登録しておくと便利です。
+テンプレートの登録は以下のように行います。
+```
+cp emoji-matome/.gitmessage.txt ~/.gitmessage.txt
+git config --global commit.template ~/.gitmessage.txt
+```
+
+これで`git commit`コマンド後に`.gitmessage.txt`がテンプレートとしてターミナル上に表示されるようになります。
