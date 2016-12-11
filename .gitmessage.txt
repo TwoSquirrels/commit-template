@@ -6,17 +6,18 @@
 
 # Commit body...
 
-# 新規機能追加 :sparkles: Add
-# ドキュメント追加 :memo: Add
-# ログ追加 :sound: Add
-# テストの追加 :white_check_mark: Add
-# 機能修正 :+1: Update
-# パフォーマンス改善 :rocket: Update
-# セキュリティ関連の改善 :cop: Update
-# リファクタリング :art: Clean
-# コメントアウトなどの無効化 :construction: Disable
-# ファイル削除 :fire: Remove
-# ログ削除 :mute: Remove
-# バグ修正 :bug: Fix
-# バージョンアップ :bookmark: Upgrade
-# イニシャルコミット :tada: Initial commit
+# 新規機能追加 :sparkles:
+# ドキュメント追加 :memo:
+# ログ追加 :sound:
+# テストの追加 :white_check_mark:
+# 機能修正 :+1:
+# パフォーマンス改善 :rocket:
+# セキュリティ関連の改善 :cop:
+# タイポなどの修正 :pencil2:
+# リファクタリング :art:
+# コメントアウトなど :construction:
+# ファイル削除 :fire:
+# ログ削除 :mute:
+# バグ修正 :bug:
+# バージョンアップ :bookmark:
+# イニシャルコミット :tada:
