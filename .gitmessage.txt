@@ -6,6 +6,7 @@
 
 # Commit body...
 
+# ==== Emoji ====
 # 新規機能追加 :sparkles:
 # ドキュメント追加 :memo:
 # ログ追加 :sound:
