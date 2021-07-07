@@ -30,10 +30,9 @@ Atomを使用している場合は、[git-plus](https://atom.io/packages/git-plu
 # ターミナル上でgit commit
 ターミナル上で絵文字を手打ちする場合にはテンプレートとして絵文字リストを登録しておくと便利です。
 テンプレートの登録は以下のように行います。
-```
-cd emoji-matome
-cp .gitmessage.txt ~/.gitmessage.txt
-git config --global commit.template ~/.gitmessage.txt
+
+```shell
+wget -O ~/.gitmssage.txt -nc https://github.com/TwoSquirrels/commit-template/blob/master/.gitmessage_with_emoji.txt ; git config --global commit.template ~/.gitmessage.txt
 ```
 
 これで`git commit`コマンド後に`.gitmessage.txt`がテンプレートとしてターミナル上に表示されるようになります。
