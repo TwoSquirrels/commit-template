@@ -1,7 +1,7 @@
 # 使い方
-次のようにコミットメッセージの先頭につけます。`:emoji: commit message`
+次のようにコミットメッセージの先頭につけます。`:emoji: 動詞: メッセージ`
 
-例えば、README.txtを追加した場合は`:memo: Add README.txt`などと書くようにします。
+例えば、README.txtを追加した場合は`:memo: Add: Create README.txt`などと書くようにします。
 
 # 絵文字(Emoji)
 絵文字とコミットタイプの対応は以下の通りです。
