@@ -33,12 +33,12 @@ Atomを使用している場合は、[git-plus](https://atom.io/packages/git-plu
 
 絵文字付き:  
 ```shell
-wget -O ~/.gitmssage.txt -nc https://github.com/TwoSquirrels/commit-template/blob/master/.gitmessage_with_emoji.txt ; git config --global commit.template ~/.gitmessage.txt
+wget -O ~/.gitmssage.txt https://github.com/TwoSquirrels/commit-template/blob/master/.gitmessage_with_emoji.txt ; git config --global commit.template ~/.gitmessage.txt
 ```
 
 絵文字抜き:  
 ```shell
-wget -O ~/.gitmssage.txt -nc https://github.com/TwoSquirrels/commit-template/blob/master/.gitmessage.txt ; git config --global commit.template ~/.gitmessage.txt
+wget -O ~/.gitmssage.txt https://github.com/TwoSquirrels/commit-template/blob/master/.gitmessage.txt ; git config --global commit.template ~/.gitmessage.txt
 ```
 
 これで`git commit`コマンド後に`.gitmessage.txt`がテンプレートとしてターミナル上に表示されるようになります。  
